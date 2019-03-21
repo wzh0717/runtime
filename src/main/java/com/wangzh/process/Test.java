@@ -10,7 +10,7 @@ import com.wangzh.process.utils.ProcessUtils;
 public class Test {
     public static void main(String[] args) {
         System.out.println("process main...");
-        String cmdText = "java -jar /data/devops-web-admin/jar/matrix-apk-canary-0.4.10.jar --config /data/devops-web-admin/data/uploadPath/TuandaiAS2-debug-config.json";
+        String cmdText = "java -jar /data/docker/devops-web-admin/jar/matrix-apk-canary-0.4.10.jar --config /data/docker/devops-web-admin/package/uploadPath/TuandaiAS2-debug-config.json";
         System.out.println(cmdText);
         ProcessUtils.execCommand(cmdText);
 
