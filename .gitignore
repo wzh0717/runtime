@@ -1,0 +1,8 @@
+.idea
+/*.gitignore
+/target/archive-tmp
+process
+/target/maven-archiver
+/target/maven-status/maven-compiler-plugin/compile/default-compile
+/target
+/*.iml
